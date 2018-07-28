@@ -37,7 +37,7 @@ connect.then((db) =>{
 },(err) => {console.log(err);});
 
 var app = express();
-
+/*
 app.all('*', (req,res,next) => {
 	
 	if(req.secure){
@@ -50,7 +50,7 @@ app.all('*', (req,res,next) => {
 	}
 	
 });
-
+*/
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
